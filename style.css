@@ -23,16 +23,20 @@ background-color: gray;
 }
 @media (max-width:570px) {
     .clock{
-        font-size: 1rem;
-        width: 20rem;
-        /* max-width: 10rem;
-        min-width: none; */
+        overflow: hidden;
+        width: 33rem;
+       font-size: small;
+       padding: 10px;
     }
     .push{
-        font-size: 1rem;
+        font-size: small;
+        padding: 10px;
+        width: auto;
+       
     }
 .btn{
     flex-direction: column;
+    gap: 1rem;
 }
 }
 .btn{
