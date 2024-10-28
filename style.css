@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body{
+    font-family: "Baloo Bhai 2", serif;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -11,8 +12,9 @@ flex-direction: column;
 background-color: gray;
 }
 .clock{
-    margin-top: 15rem;
+    margin-top: 10rem;
  width: 40rem;
+ 
     /* min-width: 40rem;
     max-width: 40rem; */
     height: auto;
@@ -32,7 +34,7 @@ background-color: gray;
         font-size: small;
         padding: 10px;
         width: auto;
-       
+       margin: 10px;
     }
 .btn{
     flex-direction: column;
@@ -42,15 +44,15 @@ background-color: gray;
 .btn{
     margin-top: 2rem;
     display: flex;
-    gap: 3rem;
+    gap: 1.5rem;
 }
 .btn button{
-padding: 20px 60px;
+padding: 20px 50px;
 border-radius: 1rem;
 border: none;
 background-color:lightgreen;
 font-size: 1.5rem;
-width: 11rem;
+
 /* margin-left: 3rem; */
 }
 .chotu{
@@ -62,7 +64,31 @@ width: 11rem;
 .btn button:hover{
     transition: all 0.4s ease-in-out;
     background-color: rgb(76, 173, 76);
-    width: 13rem;
+    width: 11rem;
     box-shadow:  5px 10px 5px #555;
   color:white;
+}
+.lap-container{
+margin-top: 2rem;
+
+width: 35rem;
+height: auto;
+
+}
+.title{
+    color: black;
+font-size: 3rem;
+text-align: center;
+margin-top: 2rem;
+}
+ul li {
+    display: block;
+    background-color:rgb(76, 173, 76) ;
+    margin-top: 1rem;
+    box-shadow:  5px 10px 5px black;
+    border-radius : 0.5rem ;
+    padding: 10px 15px;
+}
+ul{
+font-size: 2rem;
 }
